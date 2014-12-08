@@ -1,0 +1,35 @@
+﻿Build started 7/9/2014 8:07:38 PM.
+     1>Project "C:\Users\Fuscus\Desktop\EasyHook Source\Engine\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt cameraclass.cpp d3dclass.cpp debugwindowclass.cpp graphicsclass.cpp inputclass.cpp lightclass.cpp lightshaderclass.cpp main.cpp modelclass.cpp rendertextureclass.cpp systemclass.cpp textureclass.cpp textureshaderclass.cpp
+         cameraclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\cameraclass.h(11): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         d3dclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         debugwindowclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\debugwindowclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         graphicsclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         inputclass.cpp
+         lightclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\lightclass.h(11): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         lightshaderclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\lightshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         main.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         modelclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\modelclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         rendertextureclass.cpp
+         systemclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         textureclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\textureclass.h(12): fatal error C1083: Cannot open include file: 'd3dx11tex.h': No such file or directory
+         textureshaderclass.cpp
+     1>c:\users\fuscus\desktop\easyhook source\engine\engine\textureshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+     1>Done Building Project "C:\Users\Fuscus\Desktop\EasyHook Source\Engine\Engine\Engine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.51
